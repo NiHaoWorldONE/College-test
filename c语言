@@ -1,0 +1,34 @@
+#include <stdio.h>
+#define MAXM 6
+#define MAXN 6
+
+int main()
+{
+    int i, j, m, n, sum;
+    int a[MAXM][MAXN];
+
+    scanf("%d %d", &m, &n);
+    for (i = 0; i < m; i++) {
+        for (j = 0; j < n; j++) {
+            scanf("%d", &a[i][j]);
+        }
+    }
+
+    for 
+(int i=0;i<n;i++)
+
+    {
+        
+int sum=0;
+
+        for 
+(int i=0;i<m;i++)
+
+        {
+            sum += a[i][j];
+        }
+        printf("%d\n", sum);
+    }
+
+    return 0;
+}
